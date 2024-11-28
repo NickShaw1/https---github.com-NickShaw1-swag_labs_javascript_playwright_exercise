@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 // Test for Checkout field validation
-test('test', async ({ page }) => {
+test('checkout_field_validation', async ({ page }) => {
   // Login
   await page.goto('https://www.saucedemo.com/');
   await page.locator('[data-test="username"]').fill('standard_user');

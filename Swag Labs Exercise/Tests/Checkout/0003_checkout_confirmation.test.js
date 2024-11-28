@@ -1,6 +1,7 @@
 import { test, expect } from '@playwright/test';
 
-test('test', async ({ page }) => {
+// Test Checkout confirmation process
+test('checkout_successful_test', async ({ page }) => {
   // Navigate to the site and log in
   await page.goto('https://www.saucedemo.com/');
   await page.locator('[data-test="username"]').fill('standard_user');

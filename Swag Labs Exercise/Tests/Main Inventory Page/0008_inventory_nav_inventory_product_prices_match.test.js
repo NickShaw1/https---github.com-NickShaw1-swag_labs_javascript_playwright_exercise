@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 // Test to determine that prices match on inventory (main) and product pages for each item
-test('test', async ({ page }) => {
+test('price_match', async ({ page }) => {
   // Login
   await page.goto('https://www.saucedemo.com/');
   await page.locator('[data-test="username"]').fill('standard_user');

@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 // Test for some general checks against the cart page
-test('test', async ({ page }) => {
+test('cart_general_test', async ({ page }) => {
   // Login
   await page.goto('https://www.saucedemo.com/');
   await page.locator('[data-test="username"]').fill('standard_user');

@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 // Test to check a locked-out user can't login
-test('incorrect_password', async ({ page }) => {
+test('locked_out_user', async ({ page }) => {
   // Enter a correct username and an incorrect password
   await page.goto('https://www.saucedemo.com/');
   await page.locator('[data-test="username"]').fill('locked_out_user'); // Correct username
