@@ -1,0 +1,17 @@
+# Node.js dependencies
+node_modules/
+
+# Playwright browser binaries
+/.playwright/
+
+# Logs and reports (e.g., Playwright screenshots, videos)
+screenshots/
+videos/
+
+# IDE/editor specific files
+.vscode/
+.idea/
+
+# Operating system-specific files
+.DS_Store
+Thumbs.db
