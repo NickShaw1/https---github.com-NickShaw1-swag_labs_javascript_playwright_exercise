@@ -15,3 +15,4 @@ videos/
 # Operating system-specific files
 .DS_Store
 Thumbs.db
+test-results/index.html
